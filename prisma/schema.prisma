@@ -1,0 +1,29 @@
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum VoiceVariant {
+  SYSTEM
+  CUSTOM
+}
+
+enum VoiceCategory {
+  AUDIOBOOK
+  CONVERSATIONAL
+  CUSTOMER_SERVICE
+  GENERAL
+  NARRATIVE
+  CHARACTERS
+  MEDITATION
+  MOTIVATIONAL
+  PODCAST
+  ADVERTISING
+  VOICEOVER
+  CORPORATE
+}
