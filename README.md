@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# echon
 
-First, run the development server:
+AI-powered text-to-speech and voice generation platform.
+
+Echon allows users to convert text into natural-sounding audio and experiment with customizable voice outputs, all within a clean and intuitive interface.
+
+
+## 🚀 Overview
+
+Echon is designed to simplify voice generation using AI. It enables users to generate realistic speech from text and (in future) create custom voice profiles.
+
+Inspired by modern voice AI platforms, Echon brings together text-to-speech, voice control, and audio management into a single workflow.
+
+
+## ✨ Features
+
+### 🔊 Text-to-Speech
+Convert text into high-quality, natural-sounding audio.
+
+### 🎛️ Voice Controls
+Adjust tone, variation, and style to customize output.
+
+### 🧬 Voice Cloning 
+Create custom voices using uploaded or recorded samples.
+
+### 🎧 Audio Playback
+Play, review, and manage generated audio outputs.
+
+### 📊 Dashboard
+Simple and clean interface to manage all interactions.
+
+
+## 🏗️ Tech Stack
+
+- **Frontend:** Next.js / React  
+- **Styling:** Tailwind CSS  
+- **Backend:** Node.js 
+- **AI Model:** TTS engine (integration in progress)  
+- **Storage:** Cloud storage (planned)  
+
+## ⚙️ Getting Started
 
 ```bash
+git clone https://github.com/archiik04/echon.git
+cd echon
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
